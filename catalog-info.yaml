@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-docs"
+  description: "test"
+  annotations:
+    github.com/project-slug: akashchandwani/test-docs
+    backstage.io/techdocs-ref: url:https://github.com/akashchandwani/test-docs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "akashchandwani"
